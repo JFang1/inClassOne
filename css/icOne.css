@@ -1,3 +1,49 @@
 body, html {
-  font-size: 12px;
+  font-size: 162.5%;
+}
+
+.just-a-class {
+  color: green;
+  font-size: 0.65rem;
+}
+
+a:visited {
+  color: #0ff;
+}
+
+nav  ul{
+  width: 100%;
+  font-family: Arial;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li > a{
+  color: #4D0;
+  font-size: 1.5rem;
+}
+
+#secondSection {
+  text-align: right;
+}
+
+img {
+  height: 200px;
+  margin: 20px;
+  float: right;
+}
+
+form {
+  font-size: 0.8rem;
+  position: relative;
+  left: 50px;
+}
+
+footer {
+  font-size: 0.4rem;
+  color: gray;
+  text-align: right;
 }
